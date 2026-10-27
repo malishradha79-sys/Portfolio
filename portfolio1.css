@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #0b0614;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+}
+
+/* Navigation Bar */
+.mainNav {
+    background-color: #100a1c;
+    min-height: 100px;
+    border: 1px solid #382052;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    box-shadow: 0 4px 20px rgba(128, 0, 255, 0.15);
+}
+
+.leftNav {
+    display: inline-block;
+}
+
+.name111 {
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    color: #c084fc;
+}
+
+.rightNav {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.navlist {
+    display: inline-block;
+}
+
+.navmenu,
+.navmenu:link,
+.navmenu:visited {
+    color: #f3e8ff;
+    text-decoration: none;
+    padding-bottom: 10px;
+    transition: 0.3s;
+}
+
+.navmenu:hover,
+.navmenu.activePage {
+    color: #c084fc;
+    border-bottom: 3px solid #a855f7;
+}
+
+/* Introduction Section */
+.intro {
+    background: linear-gradient(135deg, #170c28, #0b0614);
+    border: 1px solid #542780;
+    border-radius: 20px;
+    margin: 35px;
+    padding: 35px;
+    min-height: 550px;
+    box-shadow: 0 0 25px rgba(168, 85, 247, 0.12);
+}
+
+/* Profile Image */
+.img {
+    height: 300px;
+    width: 150px;
+    object-fit: cover;
+    border: 3px solid #a855f7;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(168, 85, 247, 0.35);
+    width: 30%;
+    float: right;
+   
+}
+
+/* Personal Information */
+.info {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #e9d5ff;
+    width: 70%;
+    float: left;
+}
+.activePage:link{
+    color:#542780
+}
+
+.aboutpage{
+    width: 80%;
+    margin: 30px auto;
+    background-color: red;
+    text-align: center;
+}
+.Strength{
+    width: 50%;
+    background-color:purple;
+    float: right;
+}
+.hobby{
+     width: 50%;
+     background-color: pink;
+     float: left;   
+}
+.aboutpage ul{
+    width: 100px;
+    margin: 20px auto;
+}
+table,th,td{
+    border: honeydew solid 3px;
+    border-collapse:collapse;
+    margin: 30px auto;
+    padding: auto;
+}
+th{
+    background-color:rgb(85, 69, 85);
+    padding: 10px;
+}
+td{
+    padding: 20px;
+}
